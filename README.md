@@ -15,8 +15,21 @@
   STEP-5: Finally, right shift of ‘s’ times are performed and the results are combined together to produce the final output.
   
 ## PROGRAM:
+```# importing the required libraries
+import hashlib
+# making a message
+inputstring = input("Enter the input message:")
+# encoding the message using the library function
+output = hashlib.md5(inputstring.encode())
+# printing the hash function
+print("Hash of the input string:")
+print(output.hexdigest())
+```
+
 
 ## OUTPUT:
+![Screenshot 2024-05-17 104419](https://github.com/nandhu6523/EX.-NO-2-D-IMPLEMENTATION-OF-MD5/assets/123856724/6e197a8e-6eb5-4cf6-bae7-322c78f8ccfe)
+
 
 ## RESULT:
   Thus the implementation of MD5 hashing algorithm had been implemented successfully using C.
